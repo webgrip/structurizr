@@ -1,0 +1,8 @@
+services:
+  structurizr:
+    container_name: structurizr-onprem
+    image: structurizr/onpremises:latest
+    volumes:
+      - ./.structurizr/onprem:/usr/local/structurizr:rw
+    ports:
+      - "9999:8080"

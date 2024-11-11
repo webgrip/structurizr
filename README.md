@@ -1,0 +1,1 @@
+This is so that I'm able to easily make some structirizr diagrams locally
